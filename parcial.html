@@ -1,40 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Noticias</title>
 </head>
 <body>
-    <div>
-        <div>
-            <div><h1>Nombre de la empresa</h1></div>
+    <div class="container">
+        <div class="header-bar">
+            <div>Nombre de la empresa</div>
         </div>
-        <div>
-            <div>
-                <a href="#">Noticia</a>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="#">Noticias</a>
                 <a href="#">Admin</a>
                 <a href="#">Sign Up</a>
-                <a href="#">About</a>
+                <a href="#">About ▼</a>
             </div>
-            <div>
-                <input type="text" placeholder="search">
-                <button>Search</button>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <div>
-                <h2>Noticia</h2>
-            </div>
-            <div>
-                <h3>Descripcion</h3>
-                <p>Descripcion de la noticia </p>
-                <a href="#">Leer completa</a>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button">Search</button>
             </div>
         </div>
+        
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-header">Noticia</div>
+                <div class="news-content">
+                    <h3>Descripción</h3>
+                    <p>Descripcion de la noticia</p>
+                    <div class="image-placeholder"></div>
+                    <a href="#" class="read-more">Leer completa</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-header">Noticia</div>
+                <div class="news-content">
+                    <h3>Descripción</h3>
+                    <p>Descripcion de la noticia</p>
+                    <div class="image-placeholder"></div>
+                    <a href="#" class="read-more">Leer completa</a>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-header">Noticia</div>
+                <div class="news-content">
+                    <h3>Descripción</h3>
+                    <p>Descripcion de la noticia</p>
+                    <div class="image-placeholder"></div>
+                    <a href="#" class="read-more">Leer completa</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="other-news">
+            <p>Otras páginas de noticias..</p>
+        </div>
+        
+        
     </div>
+</body>
+</html>
+
                                                          
 </body>
 </html>
