@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Página de Noticias</title>
+    <link rel="stylesheet" href="parcial.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <div>Nombre de la empresa</div>
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-links">
+                <a href="parcial.html">Noticias</a>
+                <a href="admin.html">Admin</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="About.html">About ▼</a>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+        
+        <div id="about-dropdown" class="dropdown-menu">
+            <a href="about.html?section=mission">Misión</a>
+            <a href="about.html?section=vision">Visión</a>
+            <a href="about.html?section=team">Equipo de trabajo</a>
+        </div>
+        
+        <div class="about-container">
+            <div id="mission-vision-section" class="about-section">
+                <h2 class="about-title">Nuestra Misión y Visión</h2>
+                
+                <div class="mission-vision-container">
+                    <div class="mission-box">
+                        <h3>Misión</h3>
+                        <p>Nuestra misión es proporcionar noticias precisas, imparciales y oportunas que informen, eduquen y empoderen a nuestra audiencia. Nos comprometemos a mantener los más altos estándares de integridad periodística y a servir al interés público a través de un reportaje riguroso y ético.</p>
+                    </div>
+                    
+                    <div class="vision-box">
+                        <h3>Visión</h3>
+                        <p>Aspiramos a ser la fuente de información más confiable y respetada, reconocida por nuestra excelencia en el periodismo y nuestro compromiso con la verdad. Buscamos innovar constantemente en la forma de contar historias significativas que impacten positivamente en nuestra sociedad y promuevan un diálogo informado.</p>
+                    </div>
+                </div>
+                
+                <div id="about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet.
+                </div>
+                
+                <div class="content-buttons">
+                    <button id="change-font-size" class="btn btn-primary">Cambiar tamaño de letra</button>
+                    <button id="change-font-color" class="btn btn-primary">Cambiar color de letra</button>
+                </div>
+            </div>
+            <div id="team-section" class="about-section" style="display: none;">
+                <h2 class="about-title">Nuestro Equipo de Trabajo</h2>
+                
+                <div class="team-container">
+                    <div class="team-slide">
+                        <div class="team-photo">
+                            <img src="https://via.placeholder.com/150" alt="María Rodríguez">
+                        </div>
+                        <h3 class="team-name">María Rodríguez</h3>
+                        <div class="team-role">Directora Editorial</div>
+                        <div class="team-bio">
+                            María cuenta con más de 15 años de experiencia en periodismo. Ha trabajado en importantes medios internacionales y ha recibido múltiples reconocimientos por su labor periodística. Dirige nuestro equipo editorial con pasión y compromiso con la verdad.
+                        </div>
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="team-slide">
+                        <div class="team-photo">
+                            <img src="https://via.placeholder.com/150" alt="Carlos Sánchez">
+                        </div>
+                        <h3 class="team-name">Carlos Sánchez</h3>
+                        <div class="team-role">Editor Jefe de Noticias Nacionales</div>
+                        <div class="team-bio">
+                            Carlos es licenciado en Periodismo y Ciencias Políticas. Ha cubierto los eventos políticos más importantes del país durante la última década. Su rigurosidad y análisis profundo son características de su trabajo periodístico.
+                        </div>
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div> 
+                    <div class="team-slide">
+                        <div class="team-photo">
+                            <img src="https://via.placeholder.com/150" alt="Lucía Martínez">
+                        </div>
+                        <h3 class="team-name">Lucía Martínez</h3>
+                        <div class="team-role">Corresponsal Internacional</div>
+                        <div class="team-bio">
+                            Lucía ha trabajado como corresponsal en más de 20 países, cubriendo conflictos internacionales, cumbres económicas y eventos culturales. Su visión global y enfoque multicultural enriquecen nuestras noticias internacionales.
+                        </div>
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-buttons">
+                        <button id="team-prev" class="slider-btn">Anterior</button>
+                        <button id="team-next" class="slider-btn">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
